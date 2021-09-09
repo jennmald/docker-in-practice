@@ -1,0 +1,6 @@
+FROM debian
+RUN mkdir -p /opt/libeatmydata/
+ADD \
+ http://www.flamingspork.com/projects/libeatdata/libeatmydata-105.tar.gz \
+/opt/libeatmydata/
+ RUN ls -lRt /opt/libeatdata
